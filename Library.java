@@ -23,6 +23,17 @@ public class Library {
 
     
  }
+ public class LibraryManagement{
+
+    public static void main(String[] args) {
+        
+        Library libraryopt=new Library();
+        libraryopt.addBook("Tiny Tales");
+        libraryopt.issueBook();
+        
+
+    }
+ } 
 
 }
 
